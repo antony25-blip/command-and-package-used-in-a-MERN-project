@@ -1,0 +1,16 @@
+Express      → Backend framework for creating APIs.
+MongoDB      → NoSQL database for storing data.
+Mongoose     → ODM to interact with MongoDB.
+
+              Object Document Mapper(An ODM is a tool that helps your application interact with a document database like
+                                    MongoDB using objects instead of writing raw database queries. In MERN, Mongoose is the ODM.)
+
+
+React        → Frontend library for building UI.
+Node.js      → JavaScript runtime for server-side code.
+JWT          → Authentication token.
+bcryptjs     → Password hashing library.
+Axios        → API request library.
+CORS         → Allows cross-origin requests.
+Dotenv       → Manages environment variables.
+Nodemon      → Auto-restarts server during development.
