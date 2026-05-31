@@ -1,0 +1,40 @@
+Command                              | Use
+-------------------------------------|-----------------------------------------
+mkdir mern-project                   | Creates a folder named mern-project
+cd mern-project                      | Moves inside the project folder
+
+mkdir server                         | Creates backend folder
+mkdir client                         | Creates frontend folder
+
+npm init -y                          | Creates package.json with default values
+
+npm install express                  | Installs Express.js for building APIs
+npm install mongoose                 | Installs Mongoose for MongoDB connection
+npm install cors                     | Allows frontend and backend communication
+npm install dotenv                   | Loads environment variables from .env
+npm install bcryptjs                 | Hashes passwords securely
+npm install jsonwebtoken             | Creates and verifies JWT tokens
+npm install multer                   | Handles file uploads
+
+npm install -D nodemon               | Restarts server automatically on changes
+
+npm create vite@latest client -- --template react
+                                    | Creates a React project using Vite
+
+cd client                            | Moves into React project folder
+
+npm install                          | Installs all dependencies
+
+npm install axios                    | Makes HTTP requests to backend APIs
+
+npm install react-router-dom         | Enables routing in React
+
+npm run dev                          | Starts development server
+
+node server.js                       | Runs backend server
+
+git init                             | Initializes a Git repository
+
+git add .                            | Adds all files to Git staging
+
+git commit -m "Initial Commit"       | Saves a Git snapshot
