@@ -1,0 +1,76 @@
+backend/
+│
+├── src/
+│   ├── config/
+│   │   ├── db.js
+│   │   └── cloudinary.js
+│   │
+│   ├── controllers/
+│   │   ├── auth.controller.js
+│   │   ├── user.controller.js
+│   │   ├── venue.controller.js
+│   │   ├── booking.controller.js
+│   │   ├── payment.controller.js
+│   │   └── admin.controller.js
+│   │
+│   ├── models/
+│   │   ├── User.js
+│   │   ├── Venue.js
+│   │   ├── Booking.js
+│   │   ├── Review.js
+│   │   └── Payment.js
+│   │
+│   ├── routes/
+│   │   ├── auth.routes.js
+│   │   ├── user.routes.js
+│   │   ├── venue.routes.js
+│   │   ├── booking.routes.js
+│   │   ├── payment.routes.js
+│   │   └── admin.routes.js
+│   │
+│   ├── middleware/
+│   │   ├── auth.middleware.js
+│   │   ├── role.middleware.js
+│   │   ├── error.middleware.js
+│   │   └── upload.middleware.js
+│   │
+│   ├── services/
+│   │   ├── auth.service.js
+│   │   ├── venue.service.js
+│   │   ├── booking.service.js
+│   │   ├── payment.service.js
+│   │   └── email.service.js
+│   │
+│   ├── utils/
+│   │   ├── generateToken.js
+│   │   ├── sendEmail.js
+│   │   └── validators.js
+│   │
+│   ├── app.js
+│   └── server.js
+│
+├── .env
+├── package.json
+└── README.md
+
+
+command to create this structure
+
+
+mkdir -p src/{config,controllers,models,routes,middleware,services,utils}
+
+touch src/config/{db.js,cloudinary.js}
+
+touch src/controllers/{auth.controller.js,user.controller.js,venue.controller.js,booking.controller.js,payment.controller.js,admin.controller.js}
+
+touch src/models/{User.js,Venue.js,Booking.js,Review.js,Payment.js}
+
+touch src/routes/{auth.routes.js,user.routes.js,venue.routes.js,booking.routes.js,payment.routes.js,admin.routes.js}
+
+touch src/middleware/{auth.middleware.js,role.middleware.js,error.middleware.js,upload.middleware.js}
+
+touch src/services/{auth.service.js,venue.service.js,booking.service.js,payment.service.js,email.service.js}
+
+touch src/utils/{generateToken.js,sendEmail.js,validators.js}
+
+touch src/app.js src/server.js .env README.md
